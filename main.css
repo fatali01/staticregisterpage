@@ -1,5 +1,5 @@
 body {
-    background-color: #76c8ff;
+    background-color: #0e82cf;
     margin: 0;
     font-family: sans-serif;
     display: flex;
@@ -62,12 +62,13 @@ header {
 }
 
 .container > h1 {
-    margin: 0 0 .5rem;
+    margin: 0 0 -.5rem;
 }
 
 form input, form button {
     width: 100%;
     min-width: 300px;
+    text-align: center;
     /* 
         our inputs and forms have different default sizes.
         by changiung the box-sizing, we can fix this
@@ -76,8 +77,10 @@ form input, form button {
     margin: .75rem 0;
     padding: .25rem;
     line-height: 1.5rem;
-    font-size: 1em;
+    font-size:1em;
     border: solid 1px gray;
+    border-left: transparent;
+    border-right: transparent;
     border-radius: 3px;
 
 }
@@ -105,4 +108,12 @@ footer img {
 
 footer img:hover {
     cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    border: solid 1px black;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
 }
